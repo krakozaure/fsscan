@@ -26,7 +26,7 @@ FOLLOW_LINKS     = False
 
 def run(directory='.', patterns=None, wanted_type=EntryType.BOTH,
         recursive=False, onerror=None, callback=None):
-    """Scan a directory and return the mathing entries
+    """Scan a directory and return the matching entries
 
     Parameters
     ----------
