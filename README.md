@@ -1,7 +1,6 @@
 # fsscan
 
-Quickly scan a directory and yield matching entries,
-based on patterns and/or entry type.
+Quickly scan a directory and yield matching entries, based on patterns and/or entry type.
 
 ### Requirements
 
@@ -12,11 +11,11 @@ The module is tested on Python 3.4 to 3.7 (included).
 
 ### Installation
 
-From [pypi.org](https://pypi.org/)
+From [PyPI](https://pypi.org/)
 
 * Open a terminal
-* Type `pip install fsscan` 
-  <br>or `pip install --user fsscan` on Linux
+* Type `pip3 install fsscan` 
+  <br>or `pip3 install --user fsscan` on Linux
 
 From [GitHub](https://github.com)
 
@@ -24,14 +23,15 @@ From [GitHub](https://github.com)
 * Unzip the archive
 * Open a terminal
 * Move to the directory containing `setup.py`
-* Type `pip install .`
+* Type `pip3 install .`
+  <br>or `pip3 install --user .` on Linux
 
 ### Usage
 
 #### From command line
 
 ```sh
-$ python -m fsscan
+$ python3 -m fsscan
 ```
 
 or
