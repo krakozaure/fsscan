@@ -1,1 +1,1 @@
-scandir; python_version < '3.5'
+scandir; python_version == '3.4'
