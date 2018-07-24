@@ -3,9 +3,9 @@ from fnmatch import fnmatchcase
 from os.path import sep
 
 try:
-    from os import scandir  # PY>=3.5, noqa
+    from os import scandir  # PY>=3.5
 except ImportError as exc:
-    from scandir import scandir  # PY<3.5, noqa
+    from scandir import scandir  # PY<3.5
 
 
 __all__ = [
@@ -21,7 +21,7 @@ DIR_TYPE = 2
 BOTH_TYPES = 3
 
 
-def run(directory='.',
+def run(directory=".",
         patterns=None, ignore_case=True, wanted_type=BOTH_TYPES,
         recursive=False, on_error=None, follow_links=False, callback=None):
     """Directory scanner
@@ -109,7 +109,7 @@ def _prepare_directory(directory):
 
 
 def _prepare_patterns(patterns, ignore_case):
-    # Ensure that 'patterns' is a sequence of one or more items
+    # Ensure that "patterns" is a sequence of one or more items
     if isinstance(patterns, str) or not isinstance(patterns, Sequence):
         patterns = (patterns,)
 
