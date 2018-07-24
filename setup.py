@@ -5,8 +5,9 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="fsscan",
-    version="0.0.3",
+    version="0.0.4",
     author="krakozaure",
+    license="MIT",
     author_email="",
     description="Directory scanner",
     long_description=long_description,
@@ -14,7 +15,7 @@ setuptools.setup(
     url="https://github.com/krakozaure/fsscan",
     packages=setuptools.find_packages(),
     install_requires=[
-        'scandir;python_version<"3.5"'
+        'scandir;python_version=="3.4"'
     ],
     tests_require=[
         "pytest"
