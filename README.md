@@ -1,6 +1,11 @@
+
 # fsscan
 
 Quickly scan a directory and yield matching entries, based on patterns and/or entry type.
+
+### Status
+
+This project is not maintained anymore !
 
 ### Requirements
 
